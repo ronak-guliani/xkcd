@@ -118,7 +118,12 @@ ${currentComic.alt}
               <ActionPanel>
                 <OpenComicInBrowser />
                 <ExplainXkcd />
-                <Action.Push title="View History" icon={Icon.Clock} target={<HistoryView />} />
+                <Action.Push
+                  title="View History"
+                  icon={Icon.Clock}
+                  shortcut={{ modifiers: ["cmd"], key: "h" }}
+                  target={<HistoryView />}
+                />
               </ActionPanel>
             }
           />
@@ -139,7 +144,12 @@ ${currentComic.alt}
                 />
                 <OpenComicInBrowser />
                 <ExplainXkcd />
-                <Action.Push title="View History" icon={Icon.Clock} target={<HistoryView />} />
+                <Action.Push
+                  title="View History"
+                  icon={Icon.Clock}
+                  shortcut={{ modifiers: ["cmd"], key: "h" }}
+                  target={<HistoryView />}
+                />
               </ActionPanel>
             }
             detail={detail}
@@ -160,7 +170,12 @@ ${currentComic.alt}
               />
               <OpenComicInBrowser />
               <ExplainXkcd />
-                <Action.Push title="View History" icon={Icon.Clock} target={<HistoryView />} />
+              <Action.Push
+                title="View History"
+                icon={Icon.Clock}
+                shortcut={{ modifiers: ["cmd"], key: "h" }}
+                target={<HistoryView />}
+              />
             </ActionPanel>
           }
           detail={detail}
@@ -174,7 +189,12 @@ ${currentComic.alt}
             <ActionPanel>
               <OpenComicInBrowser />
               <ExplainXkcd />
-              <Action.Push title="View History" icon={Icon.Clock} target={<HistoryView />} />
+              <Action.Push
+                title="View History"
+                icon={Icon.Clock}
+                shortcut={{ modifiers: ["cmd"], key: "h" }}
+                target={<HistoryView />}
+              />
             </ActionPanel>
           }
         />
@@ -193,7 +213,12 @@ ${currentComic.alt}
               <ActionPanel>
                 <OpenComicInBrowser />
                 <ExplainXkcd />
-                <Action.Push title="View History" icon={Icon.Clock} target={<HistoryView />} />
+                <Action.Push
+                  title="View History"
+                  icon={Icon.Clock}
+                  shortcut={{ modifiers: ["cmd"], key: "h" }}
+                  target={<HistoryView />}
+                />
               </ActionPanel>
             }
           />
